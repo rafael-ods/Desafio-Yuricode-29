@@ -1,0 +1,19 @@
+.rodape {
+    max-width: 1230px;
+    margin: 136px auto 0;
+}
+
+.rodape__texto {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 2rem 2.5rem;
+}
+
+.rodape__Dev  {
+    color: var(--cor-azul);
+    font-family: var(--fonte-secundaria);
+}

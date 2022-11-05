@@ -1,0 +1,98 @@
+.banner__titulo {
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 80px 0 8px 0;
+}
+
+.banner__texto {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.banner__link {
+    position: relative;
+    text-decoration: none;
+}
+
+.banner__imagem {
+    background: url("../../../img/one-punch-man.svg") center / cover;
+    height: 400px;
+    opacity: 0.8;
+}
+
+.banner__imagem:hover {
+    opacity: 1;
+}
+
+.banner__imagem__titulo {
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 64px;
+    position: absolute;
+    left: 44px;
+    top: 172px;
+}
+
+.banner__imagem__texto {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    position: absolute;
+    left: 44px;
+    top: 244px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .banner__imagem__titulo,
+    .banner__imagem__texto {
+        left: 26px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .banner__titulo {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .banner__texto {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .banner__imagem {
+        width: 100%;
+        height: 165px;
+        border-radius: 3px;
+    }
+
+    .banner__imagem__titulo {
+        font-size: 14px;
+        line-height: 17px;
+        top: 80px;
+    }
+
+    .banner__imagem__texto {
+        font-size: 8px;
+        line-height: 160%;
+        top: 108px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .banner__imagem__titulo, .banner__imagem__texto {
+        left: 8px;
+    }
+}

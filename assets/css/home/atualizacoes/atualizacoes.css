@@ -1,0 +1,118 @@
+.atualizacoes__titulo {
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 80px 0 40px 0;
+}
+
+.atualizacoes__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 70px;
+    column-gap: 20px;
+}
+
+
+.atualizacoes__link {
+    position: relative;
+    text-decoration: none;
+}
+
+.atualizacoes__imagem {
+    opacity: 0.7;
+}
+
+.atualizacoes__imagem:hover {
+    opacity: 1;
+}
+
+
+.atualizacoes__ep {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    width: 142.93px;
+    text-align: center;
+    left: 24px;
+    bottom: 80px;
+}
+
+.atualizacoes__nome__anime {
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.atualizacoes__btn {
+    color: var(--cor-branco);
+    background-color: var(--cor-cinza-escuro);
+    border-radius: 3px;
+    font-family: var(--fonte-principal);
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    text-decoration: none;
+    padding: .55rem 3.5rem;
+
+}
+
+.a {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .atualizacoes__container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 30px;
+    }
+
+    .atualizacoes__titulo {
+        font-size: 18px;
+        line-height: 21px;
+
+    }
+
+    .atualizacoes__btn {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .atualizacoes__imagem {
+        height: 195px;
+    }
+
+    .atualizacoes__ep {
+        left: 2px;
+    }
+
+    .atualizacoes__ep {
+        font-size: 12.2193px;
+        line-height: 112.5%;
+    }
+
+    .atualizacoes__nome__anime {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

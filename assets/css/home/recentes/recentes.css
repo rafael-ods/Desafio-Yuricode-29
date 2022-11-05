@@ -1,0 +1,66 @@
+.recentes__titulos {
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 80px 0 40px 0;
+}
+
+.recentes__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+
+.recentes__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    text-decoration: none;
+}
+
+.recentes__imagem {
+    opacity: 0.7;
+}
+
+.recentes__imagem:hover {
+    opacity: 1;
+}
+
+.recentes__nome__anime {
+    color: var(--cor-branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .recentes__container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .recentes__titulos {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .recentes__imagem {
+        height: 195px;
+    }
+
+    .recentes__nome__anime {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

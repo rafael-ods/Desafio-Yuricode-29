@@ -1,0 +1,35 @@
+@import url("../home/cabecalho/cabecalho.css");
+@import url("../home/banner/banner.css");
+@import url("../home/atualizacoes/atualizacoes.css");
+@import url("../home/recentes/recentes.css");
+@import url("../home/rodape/rodape.css");
+:root {
+    --cor-azul:#00A3FF;
+    --cor-branco: #F9F9F9;
+    --cor-cinza: #BFBFBF;
+    --cor-cinza-escuro: #151B26;
+    --cor-preto-claro: #515151;
+    --bg-fundo: #06090F;
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-secundaria: 'Rubik', sans-serif;
+}
+
+
+
+body {
+    background-color: var(--bg-fundo);
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1230px;
+    padding: 0 2rem;
+}
+
+
+@media screen and (max-width:320px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
