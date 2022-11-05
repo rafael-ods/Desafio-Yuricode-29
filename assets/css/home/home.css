@@ -27,6 +27,18 @@ body {
     padding: 0 2rem;
 }
 
+@media screen and (max-width:500px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
 
 @media screen and (max-width:320px) {
     .container {
